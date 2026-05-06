@@ -1,0 +1,21 @@
+# Model checkpoints (too large for git)
+checkpoints/
+
+# Dataset
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment
+venv/
+.env
+
+# OS
+.DS_Store
+
+# OMC internal state
+.omc/
