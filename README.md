@@ -23,7 +23,7 @@ flowchart LR
     A[Vietnamese Text] --> B[PhoBERT Tokenizer]
     B --> C[Input IDs + Attention Mask]
     C --> D[PhoBERT-base\n12 Transformer Layers]
-    D --> E[[CLS] Vector\n768 dims]
+    D --> E[CLS Vector\n768 dims]
     E --> F[Classification Head\nDense → ReLU → Dense]
     F --> G[Logits\n3 classes]
     G --> H[Softmax]
